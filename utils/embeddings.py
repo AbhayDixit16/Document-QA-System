@@ -20,4 +20,4 @@ def get_embeddings(provider="huggingface", api_key=None):
         # This runs locally via sentence-transformers on CPU/GPU
         return HuggingFaceEmbeddings(
             model_name="sentence-transformers/all-MiniLM-L6-v2"
-        )
+        )
